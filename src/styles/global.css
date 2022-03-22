@@ -1,0 +1,25 @@
+@tailwind base;
+
+a {
+  @apply no-underline;
+}
+
+a:hover {
+  @apply no-underline;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+body {
+  @apply bg-stone-50;
+}
